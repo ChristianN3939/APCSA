@@ -1,7 +1,7 @@
 public class MainII {
     public static void main(String[] args) {
-      generateRandomPassword();
-      generateRandomPassword();
+      //generateRandomPassword();
+      //generateRandomPassword();
       generateRandomPassword();
 
     }
@@ -18,7 +18,7 @@ public class MainII {
       
 
         String randIntII = "";
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
         String[] numbers = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
         double randInt = (Math.random() * numbers.length);
         int randIntRound = (int)randInt;
@@ -35,10 +35,35 @@ public class MainII {
          int randCharIIRound = (int)randCharII;
          String charGet = charS[randCharIIRound];
          randChar = randChar + charGet;
-
        }
-       System.out.println(randLetter + randIntII + randChar);
-        
+
+       String RandomGuy4LEET = randLetter + randIntII + randChar;
+
+       System.out.println("Here is my random pwd " + RandomGuy4LEET);
+/* 
+       for (int i = 0; i < 1; i++) {
+      
+        double replaceInt = (Math.random() * 8);
+        double replaceIntII = (Math.random() * 8);
+        int replactIntII = (int)replaceInt;
+        int replactIntIII = (int)replaceIntII;
+        char yes = RandomGuy4LEET.charAt(replactIntII);
+        char yesII = RandomGuy4LEET.charAt(replactIntIII);
+        for (int w = 0; w < 3; w++) {        
+          RandomGuy4LEET = RandomGuy4LEET.replace(yes, yesII);
+        }
+      
+       }
+   */    
+       System.out.println(RandomGuy4LEET);
     }
 
+    public static String replaceCharAtPos(String str, int pos, String char ) {
+      // this function replaces a char in a string with another character
+      // replaceCharAtPos("christian", 3, "x")
+      // chrxstian
+    }
+
+
+    
 }
