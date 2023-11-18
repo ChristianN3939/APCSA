@@ -1,10 +1,11 @@
-public class MainII {
+public class Main {
     public static void main(String[] args) {
       //generateRandomPassword();
       //generateRandomPassword();
       generateRandomPassword();
 
     }
+
     public static void generateRandomPassword () {
         String randLetter = "";
         for (int i = 0; i < 5; i++) {
